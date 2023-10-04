@@ -1,0 +1,48 @@
+<div
+    novalidate
+    [formGroup]="screenFormGroup"
+>
+    <div
+        style="display: flex; flex-direction: column"
+        magic="{{mgc.Test}}"
+    >
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="{{mgc.Label3}}"
+                class="lable_overflow"
+            >
+                A:
+            </label>
+            <mat-form-field>
+                <div>
+                    <input
+                        matInput
+                        magic="{{mgc.A}}"
+                        formControlName="{{mgc.A}}"
+                        mgFormat
+                    >
+                    <mgError magic={{mgc.A}}> </mgError>
+                </div>
+            </mat-form-field>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="{{mgc.Label4}}"
+                class="lable_overflow"
+            >
+                B:
+            </label>
+            <mat-form-field>
+                <div>
+                    <input
+                        matInput
+                        magic="{{mgc.B}}"
+                        formControlName="{{mgc.B}}"
+                        mgFormat
+                    >
+                    <mgError magic={{mgc.B}}> </mgError>
+                </div>
+            </mat-form-field>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,217 @@
+Generation output:
+Generating new project
+
+D:\MSE\XPA46\Projects\Web>echo off 
+generating new project "Web"
+Install angular/cli@8 - Installing angular/cli version 8
+
+added 294 packages in 1m
+
+59 packages are looking for funding
+  run `npm fund` for details
+CREATE Web/angular.json (3569 bytes)
+CREATE Web/package.json (1289 bytes)
+CREATE Web/README.md (1021 bytes)
+CREATE Web/tsconfig.json (543 bytes)
+CREATE Web/tslint.json (1953 bytes)
+CREATE Web/.editorconfig (246 bytes)
+CREATE Web/.gitignore (631 bytes)
+CREATE Web/browserslist (429 bytes)
+CREATE Web/karma.conf.js (1015 bytes)
+CREATE Web/tsconfig.app.json (270 bytes)
+CREATE Web/tsconfig.spec.json (270 bytes)
+CREATE Web/src/favicon.ico (948 bytes)
+CREATE Web/src/index.html (289 bytes)
+CREATE Web/src/main.ts (372 bytes)
+CREATE Web/src/polyfills.ts (2838 bytes)
+CREATE Web/src/styles.css (80 bytes)
+CREATE Web/src/test.ts (642 bytes)
+CREATE Web/src/assets/.gitkeep (0 bytes)
+CREATE Web/src/environments/environment.prod.ts (51 bytes)
+CREATE Web/src/environments/environment.ts (662 bytes)
+CREATE Web/src/app/app.module.ts (314 bytes)
+CREATE Web/src/app/app.component.html (25498 bytes)
+CREATE Web/src/app/app.component.spec.ts (972 bytes)
+CREATE Web/src/app/app.component.ts (207 bytes)
+CREATE Web/src/app/app.component.css (0 bytes)
+CREATE Web/e2e/protractor.conf.js (808 bytes)
+CREATE Web/e2e/tsconfig.json (214 bytes)
+CREATE Web/e2e/src/app.e2e-spec.ts (636 bytes)
+CREATE Web/e2e/src/app.po.ts (262 bytes)
+
+added 1347 packages, and audited 1348 packages in 4m
+
+92 packages are looking for funding
+  run `npm fund` for details
+
+44 vulnerabilities (1 low, 14 moderate, 19 high, 10 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+adding Magic support`
+[V-CLI] cmd.exe /c ng add @magic-xpa/cli@4.603.0-dev462.325 --project=Web --skipHelp --angularVersion=4.603.0-dev462.325 --cliVersion=4.603.0-dev462.325
+Installing packages for tooling via npm.
+Installed packages for tooling via npm.
+   [V - add install dependencies !] options.cliVersion=4.603.0-dev462.325
+   [V - add install dependencies !] options.angularVersion=4.603.0-dev462.325
+    [>] Add devDependencies @types/stacktrace-js ^0.0.32
+    [>] Add devDependencies @magic-xpa/cli 4.603.0-dev462.325
+    [>] Install dependencies.
+UPDATE package.json (1416 bytes)
+
+added 1 package, and audited 1367 packages in 6s
+
+94 packages are looking for funding
+  run `npm fund` for details
+
+46 vulnerabilities (1 low, 14 moderate, 19 high, 12 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+    [>] Add dependencies @angular/material ^8.0.0
+    [>] Add dependencies @angular/cdk ^8.0.0
+    [>] Add dependencies @angular/animations ^8.0.0
+    [>] Add dependencies font-awesome ^4.7.0
+    [>] Add dependencies hammerjs ^2.0.8
+    [>] Add dependencies ngx-infinite-scroll ^6.0.0
+    [>] Add dependencies ng-dynamic-component ^3.0.0
+    [>] Add dependencies @magic-xpa/angular 4.603.0-dev462.325
+    [>] Install dependencies.
+UPDATE package.json (1660 bytes)
+
+added 28 packages, and audited 1395 packages in 3m
+
+94 packages are looking for funding
+  run `npm fund` for details
+
+49 vulnerabilities (1 low, 17 moderate, 19 high, 12 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+DELETE src/app/app.component.html
+DELETE src/favicon.ico
+      [>]add file .//src/magic-styles.css to test
+      [>]add file .//src/magic-styles.css to build
+CREATE src/favicon.ico (4286 bytes)
+CREATE src/magic-styles.css (2064 bytes)
+CREATE src/app/app.component.html (44 bytes)
+CREATE src/app/app.routes.ts (315 bytes)
+CREATE src/app/magic/component-list.g.ts (104 bytes)
+CREATE src/app/magic/magic.gen.lib.module.ts (2023 bytes)
+UPDATE src/app/app.module.ts (854 bytes)
+UPDATE angular.json (3654 bytes)
+
+up to date, audited 1395 packages in 6s
+
+94 packages are looking for funding
+  run `npm fund` for details
+
+49 vulnerabilities (1 low, 17 moderate, 19 high, 12 critical)
+
+Generation warnings/errors:
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated node-fetch-npm@2.0.4: This module is not used anymore, npm uses minipass-fetch for its fetch implementation now
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated read-package-tree@5.3.1: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated @schematics/update@0.803.29: This was an internal-only Angular package up through Angular v11 which is no longer used or maintained. Upgrade Angular to v12+ to remove this dependency.
+npm notice 
+npm notice New minor version of npm available! 9.6.2 -> 9.8.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+npm notice Run `npm install -g npm@9.8.1` to update!
+npm notice 
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated read-package-tree@5.3.1: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated node-fetch-npm@2.0.4: This module is not used anymore, npm uses minipass-fetch for its fetch implementation now
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @schematics/update@0.803.29: This was an internal-only Angular package up through Angular v11 which is no longer used or maintained. Upgrade Angular to v12+ to remove this dependency.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated streamroller@1.0.6: 1.x is no longer supported. Please upgrade to 3.x or higher.
+npm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+npm WARN deprecated log4js@4.5.1: 4.x is no longer supported. Please upgrade to 6.x or higher.
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated protractor@7.0.0: We have news to share - Protractor is deprecated and will reach end-of-life by Summer 2023. To learn more and find out about other options please refer to this post on the Angular blog. Thank you for using and contributing to Protractor. https://goo.gle/state-of-e2e-in-angular
+npm WARN deprecated core-js@3.6.4: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated text-encoding@0.7.0: no longer maintained
+npm WARN deprecated @angular/http@7.2.16: Package no longer supported. Use @angular/common instead, see https://angular.io/guide/deprecations#angularhttp
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+ Generate Modules
+
+D:\MSE\XPA46\Projects\Web\output\Web>echo off 
+copying files
+
+
+
+D:\MSE\XPA46\Projects\Web\output\Web>echo off 
+generating modules
+[V-CLI] cmd.exe /c ng g @magic-xpa/cli:modules
+   Number of modules to be check for generate: 1
+Nothing to be done.
+
+Generate Components
+
+D:\MSE\XPA46\Projects\Web\output\Web>echo off 
+copying files
+
+
+
+D:\MSE\XPA46\Projects\Web\output\Web>echo off 
+generating components
+[V-CLI] cmd.exe /c ng g @magic-xpa/cli:magic
+[>]  ********************************* START    GENERATE *********************************
+   Number of modules to be check for generate: 1
+[>]           ******    Start Web Module name : []    *******
+*** Step 1: Loading JSON files ***
+[>] Loading JSON file .//magic-metadata/Test/Test.json
+*** Step 2: Processing JSON files -  (1 components) ***
+[>] Processing JSON file for component Test
+*** Step 3: generate components. (1 components) ***
+[>] generate component Test
+[>] Step 4: components-list.
+ Total old components: 0, added components: 1. 
+[>]  ********************************* E N D    GENERATE *********************************
+CREATE src/app/magic/Test/Test.mg.controls.g.ts (798 bytes)
+CREATE src/app/magic/Test/Test.component.ts (642 bytes)
+CREATE src/app/magic/Test/Test.component.html (1357 bytes)
+UPDATE src/app/magic/component-list.g.ts (217 bytes)
+
+
+
